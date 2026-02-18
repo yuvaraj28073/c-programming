@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    float a,b,c;
+    printf("enter height and base ");
+    scanf("%f%f",&a,&b);
+    c=(1/2.0)*a*b;
+    printf("area =%f",c);
+    return 0;
+}
