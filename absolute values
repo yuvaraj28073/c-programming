@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int num, abs;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num < 0)
+        abs = -num;
+    else
+        abs = num;
+
+    printf("Absolute value = %d\n", abs);
+
+    return 0;
+}
