@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    float a,b,c;
+    printf("enter no to find square and cube ");
+    scanf("%f",&a);
+    b=a*a;
+    c=a*a*a;
+    printf("square =%f\n",b);
+    printf("cube =%f",c);
+    return 0;
+}
