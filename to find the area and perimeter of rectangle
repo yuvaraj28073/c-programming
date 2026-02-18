@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    float a,b,c,d;
+    printf("enter length and breadth ");
+    scanf("%f%f",&a,&b);
+    c=2*(a+b);
+    d=a*b;
+    printf("perimeter =%f\n",c);
+    printf("area =%f",d);
+    return 0;
+}
